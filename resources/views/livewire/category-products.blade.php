@@ -8,7 +8,7 @@
                     <article>
 
                         <figure>
-                            <img class="h-48 w-full object-cover object-center" src="{{Storage::url($product->images->first()->url)}}" alt="">
+                            <img class="h-48 w-full object-cover object-center rounded-t-lg" src="{{Storage::url($product->images->first()->url)}}" alt="">
                         </figure>
 
                         <div class="py-4 px-4">
